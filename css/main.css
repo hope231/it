@@ -296,7 +296,6 @@ body {
 }
 
 .first-screen {
-  padding-bottom: 600px;
   background: url("../img/first-screen/bg.jpg") no-repeat center top/cover;
   min-height: 100vh;
 }
