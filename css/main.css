@@ -160,6 +160,11 @@ body::-webkit-scrollbar-track {
   line-height: 20px;
   color: #FFFFFF;
 }
+.header__menu a:hover {
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  color: #0000CD;
+}
 .header__menu ul {
   overflow: auto;
   display: -webkit-box;
@@ -353,6 +358,12 @@ body {
   border-radius: 30px;
   max-width: 200px;
   margin: 0 auto;
+  cursor: pointer;
+}
+.first-screen__button:hover {
+  background: #0000CD;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 .first-screen__button a {
   font-weight: 500;
