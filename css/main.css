@@ -88,6 +88,9 @@ body::-webkit-scrollbar-track {
 }
 
 @media (max-width: 767.98px) {
+  .header.active:after {
+    left: -1000px;
+  }
   .header:after {
     top: 0;
     left: 0;
@@ -107,6 +110,8 @@ body::-webkit-scrollbar-track {
   top: 5px;
   left: 30px;
   display: none;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 .header__ico img {
   width: 40px;
@@ -115,6 +120,9 @@ body::-webkit-scrollbar-track {
 @media (max-width: 767.98px) {
   .header__ico {
     display: block;
+  }
+  .header__ico.active {
+    left: -1000px;
   }
 }
 .header__menu {
@@ -163,7 +171,7 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 767.98px) {
   .header__menu ul {
-    padding: 40px 0 0 0;
+    padding: 0 0 0 0;
     z-index: 20;
     display: block;
     position: fixed;
