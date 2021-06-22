@@ -101,7 +101,7 @@ body::-webkit-scrollbar-track {
     height: 50px;
     -webkit-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-    background: #4985FF;
+    background: #4b0082;
   }
 }
 .header__ico {
