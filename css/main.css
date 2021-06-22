@@ -101,7 +101,7 @@ body::-webkit-scrollbar-track {
     height: 50px;
     -webkit-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-    background: #6C462C;
+    background: #4985FF;
   }
 }
 .header__ico {
@@ -140,7 +140,7 @@ body::-webkit-scrollbar-track {
   height: 100%;
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
-  background: url("../img/first-screen/bg-apadtive.jpg") no-repeat center top/100% 750px;
+  background: url("../img/first-screen/bg-apadtive.jpg") no-repeat center top/cover;
 }
 @media (max-width: 767.98px) {
   .header__menu {
@@ -201,7 +201,7 @@ body::-webkit-scrollbar-track {
 
 .header-burger {
   z-index: 25;
-  top: 20px;
+  top: 17px;
   right: 30px;
   position: fixed;
   width: 30px;
