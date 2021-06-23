@@ -140,7 +140,7 @@ body::-webkit-scrollbar-track {
   height: 100%;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  background: url("../img/first-screen/bg-apadtive.jpg") no-repeat center top/100% 750px;
+  background: url("../img/first-screen/bg-apadtive.jpg") no-repeat center top/cover;
 }
 @media (max-width: 767.98px) {
   .header__menu {
@@ -534,7 +534,7 @@ body {
   margin: 0 0 15px 0;
   font-size: 36px;
   color: #000000;
-  background: url("../../img/aboutus-screen/02.svg") no-repeat center left;
+  background: url("../img/aboutus-screen/02.svg") no-repeat center left;
 }
 .aboutus-screen__bot__item__text {
   font-size: 16px;
