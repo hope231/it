@@ -521,12 +521,23 @@ body {
         flex-wrap: wrap;
   }
 }
+@media (max-width: 479.98px) {
+  .aboutus-screen__bot__body {
+    display: block;
+  }
+}
 .aboutus-screen__bot__item {
+  max-width: 100px;
   margin: 0 0 0 100px;
 }
 @media (max-width: 1153px) {
   .aboutus-screen__bot__item {
     margin: 0 0 20px 70px;
+  }
+}
+@media (max-width: 479.98px) {
+  .aboutus-screen__bot__item {
+    margin: 20px auto;
   }
 }
 .aboutus-screen__bot__item__number {
