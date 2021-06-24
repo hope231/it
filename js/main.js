@@ -1,0 +1,1 @@
+new Swiper('.allservices-screen__item');
