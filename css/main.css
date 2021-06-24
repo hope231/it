@@ -444,6 +444,9 @@ body {
   color: #999999;
   max-width: 222px;
 }
+.srvice-screen__button {
+  margin: 0 auto;
+}
 
 .aboutus-screen {
   background: #F6F6F8;
@@ -597,6 +600,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -612,7 +618,6 @@ body {
   font-size: 36px;
   line-height: 53px;
   color: #FFFFFF;
-  margin: 0 0 76px 0;
 }
 @media (max-width: 767.98px) {
   .allservices-screen__title {
@@ -627,15 +632,13 @@ body {
     line-height: 33px;
   }
 }
-.allservices-screen__button {
-  display: block;
-}
 @media (max-width: 767.98px) {
   .allservices-screen__button {
     margin: 76px auto;
   }
 }
 .allservices-screen__body__mid {
+  margin: 76px 0 0 0;
   position: relative;
   z-index: 2;
   display: -webkit-box;

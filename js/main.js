@@ -1,1 +1,1 @@
-new Swiper('.allservices-screen__item');
+const swiper = new Swiper('.swiper-container');
