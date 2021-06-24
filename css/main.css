@@ -307,12 +307,10 @@ body {
   min-height: 100vh;
 }
 .first-screen__body {
-  padding: 110px 0 0 0;
   margin: 0 auto;
 }
 @media (max-width: 767.98px) {
   .first-screen__body {
-    padding: 0;
     margin-top: 100px;
   }
 }
@@ -373,6 +371,11 @@ body {
 
 .srvice-screen {
   padding: 90px 0 90px 0;
+}
+@media (max-width: 767.98px) {
+  .srvice-screen {
+    padding: 45px 0;
+  }
 }
 .srvice-screen__title {
   font-weight: bold;
@@ -452,6 +455,11 @@ body {
   background: #F6F6F8;
   padding: 152px 0 0 0;
 }
+@media (max-width: 767.98px) {
+  .aboutus-screen {
+    padding: 60px 0 0 0;
+  }
+}
 .aboutus-screen__top__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -489,7 +497,7 @@ body {
 }
 @media (max-width: 992.98px) {
   .aboutus-screen__top__link {
-    margin: 80px auto;
+    margin: 40px auto;
   }
 }
 .aboutus-screen__top__body__right img {
@@ -566,6 +574,11 @@ body {
   padding: 109px 0 109px 0;
   position: relative;
 }
+@media (max-width: 767.98px) {
+  .allservices-screen {
+    padding: 50px 0;
+  }
+}
 .allservices-screen__body {
   z-index: 10;
 }
@@ -586,12 +599,12 @@ body {
 }
 @media (max-width: 767.98px) {
   .allservices-screen__body:after {
-    height: 58.5%;
+    height: 57.5%;
   }
 }
 @media (max-width: 479.98px) {
   .allservices-screen__body:after {
-    height: 57.5%;
+    height: 56%;
   }
 }
 .allservices-screen__body__top {
@@ -634,7 +647,7 @@ body {
 }
 @media (max-width: 767.98px) {
   .allservices-screen__button {
-    margin: 76px auto;
+    margin: 30px auto 20px auto;
   }
 }
 .allservices-screen__body__mid {
