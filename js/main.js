@@ -5,6 +5,9 @@ const swiper = new Swiper('.swiper-container',{
     dynamicBullets: true,
   },
   breakpoints: {
+  1153: {
+  	slidesPerView: 3,
+  },
   767: {
    slidesPerView: 2,
   },
